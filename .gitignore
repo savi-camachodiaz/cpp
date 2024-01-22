@@ -1,3 +1,5 @@
 #My GitIgnore - Pretty Simple
 
+/*/bin/
 /*/build/
+/*/examples/
