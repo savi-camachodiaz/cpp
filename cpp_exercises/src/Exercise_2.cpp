@@ -12,7 +12,10 @@ EX2::Excercise2::~Excercise2()
 
 void EX2::Excercise2::ex1()
 {
-  printf("Hello Test 2\n");
+  //PROG THAT GIVES, IN DAYS, YOUR ACTUAL AGE
+
+  int res = (YEAR_A - YEAR_B) * 365;
+  printf("Your age %d in days is %d\n", YEAR_A - YEAR_B, res);
 }
 
 void EX2::Excercise2::ex2()

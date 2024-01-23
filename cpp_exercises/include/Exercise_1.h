@@ -3,6 +3,12 @@
 
 namespace EX1 {
 
+	enum characters {
+		MARIO,
+		GREEN_MARIO,
+		MUSHROOM_MARIO
+	};
+
 	class Excercise1
 	{
 
@@ -14,6 +20,7 @@ namespace EX1 {
 		void ex2();
 		void ex3();
 		void ex4();
+		void ex5();
 
 	private:
 
