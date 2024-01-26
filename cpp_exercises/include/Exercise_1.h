@@ -1,20 +1,27 @@
+#pragma once
 #ifndef __EX_1_H__
-#define __EX_1_h__ 1
+#define __EX_1_H__ 1
+
+#include <stdio.h>
+#include <stdlib.h>
 
 namespace EX1 {
 
 	enum characters {
+
 		MARIO,
 		GREEN_MARIO,
 		MUSHROOM_MARIO
+	
 	};
 
-	class Excercise1
+	class Exercise1
 	{
 
 	public:
-		Excercise1();
-		~Excercise1();
+
+		Exercise1();
+		~Exercise1();
 
 		void ex1();
 		void ex2();

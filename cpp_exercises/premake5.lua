@@ -3,6 +3,8 @@ workspace "Workspace"
   location("./build")
   configurations { "Debug", "Release" }
   platforms { "Win32", "x64" }
+
+  defines {"_CRT_SECURE_NO_WARNINGS", "_CRT_SECURE_NO_DEPRECATE", "_CRT_NONSTDC_NO_DEPRECATE"}
   
   filter { "platforms:Win32" }
     system "Windows"

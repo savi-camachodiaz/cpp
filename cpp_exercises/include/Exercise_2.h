@@ -1,22 +1,28 @@
+#pragma once
 #ifndef __EX_2_H__
-#define __EX_2_h__ 2
+#define __EX_2_H__ 2
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <cmath>
 
 #define YEAR_B 1998
 #define YEAR_A 2024
+#define PI 3.14
 
 namespace EX2 {
 
-	class Excercise2
+	class Exercise2
 	{
 
 	public:
-		Excercise2();
-		~Excercise2();
+		
+		Exercise2();
+		~Exercise2();
 
 		void ex1();
 		void ex2();
 		void ex3();
-		void ex4();
 
 	private:
 
