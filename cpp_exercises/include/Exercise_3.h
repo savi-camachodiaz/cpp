@@ -17,15 +17,6 @@ namespace EX3 {
 
 	};
 
-	enum screens
-	{
-
-		LOAD,
-		SAVE,
-		CLOSE
-
-	};
-
 	class Exercise3
 	{
 
