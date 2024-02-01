@@ -7,6 +7,16 @@
 
 namespace EX5 {
 
+	enum playableCharacters
+	{
+
+		PETER,
+		MILES,
+		GWEN,
+		MIGUEL
+
+	};
+
 	class Exercise5
 	{
 
@@ -19,6 +29,7 @@ namespace EX5 {
 		void ex2();
 		void ex3();
 		void ex4();
+		void ex5();
 
 	private:
 
